@@ -1,2 +1,2 @@
 #!/bin/bash
-g++ -I include/ src/*.cpp -o __exec && ./__exec 
+g++ -std=c++14 -I include/ src/*.cpp -o __exec && ./__exec 
